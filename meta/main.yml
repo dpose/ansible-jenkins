@@ -1,6 +1,6 @@
 ---
 galaxy_info:
-  author: Thomas Berton
+  author: Thomas Berton (Recipe updated by David Pose Fernández)
   description: Role to install Jenkins and install/update plugins
   license: MIT
   min_ansible_version: 2.2
@@ -10,7 +10,7 @@ galaxy_info:
         - trusty
     - name: Debian
       versions:
-        - jessie
+        - stretch
     - name: FreeBSD
       versions:
         - 10
